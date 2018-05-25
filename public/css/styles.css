@@ -1,0 +1,80 @@
+h1{
+    color: red;
+}
+
+body{
+    background-color: linear-gradient(grey, white);
+}
+.container:hover{
+    background-color:grey;
+    transition: width 2s, height 4s;
+}
+
+.container{
+    align-content: right;
+    align-items: right;
+    align-self: right;
+    background-color: aquamarine;
+    padding: 15px;
+    margin: 7px;
+    width: 50%;
+    height: 20%;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.roundCorner{
+    align-items: center;
+    border-radius: 69px;
+}
+
+.contact{
+    font-size: 30px;
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#form{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.merch{
+    width: 70%;
+    height: 40%;
+    padding: 13px;
+    border-radius: 69px;
+    border: solid black 1px;
+}
+
+span{
+    margin: 15px;
+    width: 100%;
+}
+
+.input{
+    margin: 5px;
+    border: solid green 1px;
+    padding: 11px;
+    border-radius: 30px;
+}
+
+div{
+    padding-bottom: 30px;
+
+}
+
+p{
+    font-family: fantasy;
+}
+
+footer{
+    font-family: cursive;
+    text-align: right;
+}
