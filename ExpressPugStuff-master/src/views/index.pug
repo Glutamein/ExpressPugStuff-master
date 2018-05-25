@@ -1,0 +1,61 @@
+html    
+    head
+        title='12'
+        script(src="js/scripts.js")
+        link(rel="stylesheet",  href="css/styles.css")
+    body  
+        div(id='form')  
+            form(method='post', action='goToItem')
+                span= 'Mach12 Microwave '
+                    select#id(name="Microwave")
+                        option choose an option 
+                        option Microwave ++ 
+                        option Microwave Chrome
+                        option Microwave Peguine
+                        option Microwave Door +
+                        option Microwave Colour
+                        option Microwave Apple
+                        option Micrcowave Windows
+                        option Microwave M12
+                a(type="button", href="views/microwave.pug") Go 
+                  
+                span= 'Mach12 Dryer '
+                    select#id(name="Dryer")
+                        option choose an option
+                        option M12 Dryer
+                        option M12 Dryer Download
+                        option M12 Dryer X
+                        option M12 Dryer Jam
+                        option M12 Dryer ++
+                        option M12 Dryer +++
+                        option M12 Dryer +-+
+                        option M12 Dryer Colour
+                a(type="button", href="views/dryer.pug") Go  
+                        
+                
+                span= 'Mach12 ToasterOven '
+                    select#id(name="ToasterOven ")
+                        option choose an option
+                        option ToasterOven Fire 
+                        option ToasterOven Offline
+                        option ToasterOven Colour
+                        option ToasterOven M12
+                        option ToasterOven + 
+                        option ToasterOven Ice
+                        option ToasterOven Vision
+                        option ToasterOven slingshot 
+                a(class="button", href ="views/toasterOven.pug") Go  
+                  
+        div(class=['container', 'roundCorner'])
+            h1(id='h1')='Mach12 Merch'
+        div(class=['container'])    
+            a(class='button', href='src/views/contactUs.pug') Place an order
+        div(class=['container'])
+            a(class='button', href='src/views/contactUs.pug') Get Help Here            
+
+    
+
+                    
+   
+        
+        

@@ -1,0 +1,152 @@
+{
+    "microwave": [
+        {
+            "name": "Microwave ++",
+            "price": "$72",
+            "description": "Spins at mach 12+",
+            "img": "images/microwave++.png"
+        },
+        {
+            "name": "Microwave Chrome",
+            "price": "$420",
+            "description": "Can run google chrome, only in incognito mode",
+            "img": "images/microChrome.png"
+        },
+        {
+            "name": "Microwave Peguine",
+            "price": "$421",
+            "description": "Can install and run linux",
+            "img": "images/microPeguin.png"
+        },
+        {
+            "name": "Microwave Door+",
+            "price": "$420",
+            "description": "Door opens in all directions",
+            "img": "images/microDoor.png"
+        },
+        {
+            "name": "Microwave Colour",
+            "price": "$69",
+            "description": "Comes in diffrent colors and has an LED screen",
+            "img": "images/microColour.png"
+        },
+        {
+            "name": "Microwave Apple",
+            "price": "$666",
+            "description": "An apple shaped microwave with no windows",
+            "img": "images/appleMicrowave.png"
+        },
+        {
+            "name": "Microwave Windows",
+            "price": "$420",
+            "description": "A microwave made out of all windows",
+            "img": "images/microWindow.png"
+        },
+        {
+            "name": "Microwave M12",
+            "price": "$69",
+            "description": "A normal M12 Microwave",
+            "img": "images/micro.png"
+        }
+    ],
+    "dryer": [
+        {
+            "name": "M12 Dryer",
+            "price": "$420",
+            "description": "A dryer that spins at mach 12",
+            "img": "images/dryer.jpg"
+        },
+        {
+            "name": "M12 Dryer Download",
+            "price": "$425",
+            "description": "Can download your dry clothes",
+            "img": "images/dryerDownload.png"
+        },
+        {
+            "name": "M12 Dryer XL",
+            "price": "$500",
+            "description": "XL M12 Dryer",
+            "img": "images/dryer.jpg"
+        },
+        {
+            "name": "M12 Dryer Jam",
+            "price": "$500",
+            "description": "Turns your lint into 'tasty' jam and plays music while laurdry is drying",
+            "img": "images/dryerJam.png"
+        },
+        {
+            "name": "M12 Dryer ++",
+            "price": "$666",
+            "description": "An M12 Dryer with a Microwave M12 on top",
+            "img": "images/dryer++.jpg"
+        },
+        {
+            "name": "M12 Dryer +++",
+            "price": "$690",
+            "description": "An M12 Dryer with a Microwave M12 and a ToasterOven M12 on top",
+            "img": "images/dryer+++.png"
+        },
+        {
+            "name": "M12 Dryer +-+",
+            "price": "$690",
+            "description": "An M12 Dryer with a ToasterOven M12 on top", 
+            "img": "images/dryer+-+.png"
+        },
+        {
+            "name": "M12 Dryer Color",
+            "price": "$420",
+            "description": "A colored M12 Dryer", 
+            "img": "images/DryerColour.jpg"
+        }
+    ],
+    "toasterOven": [
+        {
+            "name": "ToasterOven Fire HD",
+            "price": "$105",
+            "description": "Cooks whatever is in the toaster 'well done'",
+            "img": "images/toFire.png"
+        },
+        {
+            "name": "ToasterOven Offline",
+            "price": "$105",
+            "description": "Toasts food while offline",
+            "img": "images/toOffline.png"
+        },
+        {
+            "name": "ToasterOven Color",
+            "price": "$75",
+            "description": "A colored Toaster M12",
+            "img": "images/toColour.png"
+        },
+        {
+            "name": "ToasterOven M12",
+            "price": "$69",
+            "description": "Vibrates at Mach 12",
+            "img": "images/toaster+.png"
+        },
+        {
+            "name": "ToasterOven +",
+            "price": "$105",
+            "description": "A toaster and ToasterOven M12 combined",
+            "img": "images/toaster+.png"
+        },
+        {
+            "name": "ToasterOven Ice",
+            "price": "$105",
+            "description": "Makes a cold drink, but only if you toast exactly 7 slices of wheat bread",
+            "img": "toIce.jpg"
+        },
+        {
+            "name": "ToasterOven Vision",
+            "price": "$210",
+            "description": "Projects a movie while it makes toast and puts an image on your toast",
+            "img": "images/toaster+.png"
+        },
+        {
+            "name": "ToasterOven Slingshot",
+            "price": "$105",
+            "description": "Flings your burnt toast to you at mach 12",
+            "img": "images/toSlingshot.png"
+        }
+    ]
+}

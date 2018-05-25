@@ -1,0 +1,54 @@
+html
+    head
+        title= title
+        link(rel='stylesheet',  href="/css/styles.css")
+        script(src="/js/scripts.js")
+    body
+         div(id='form')  
+            form(method='post', action='goToItem')
+                span= 'Mach12 Microwave '
+                    select#id(name="Microwave")
+                        option choose an option 
+                        option Microwave ++ 
+                        option Microwave Chrome
+                        option Microwave Peguine
+                        option Microwave Door +
+                        option Microwave Colour
+                        option Microwave Apple
+                        option Micrcowave Windows
+                        option Microwave M12
+                a(type="button", href="views/microwave.pug") Go 
+                  
+
+                span= 'Mach12 Dryer '
+                    select#id(name="Dryer")
+                        option choose an option
+                        option M12 Dryer
+                        option M12 Dryer Download
+                        option M12 Dryer X
+                        option M12 Dryer Jam
+                        option M12 Dryer ++
+                        option M12 Dryer +++
+                        option M12 Dryer +-+
+                        option M12 Dryer Colour
+                a(type="button", href="views/dryer.pug") Go  
+                        
+                
+                span= 'Mach12 ToasterOven '
+                    select#id(name="ToasterOven ")
+                        option choose an option
+                        option ToasterOven Fire 
+                        option ToasterOven Offline
+                        option ToasterOven Colour
+                        option ToasterOven M12
+                        option ToasterOven + 
+                        option ToasterOven Ice
+                        option ToasterOven Vision
+                        option ToasterOven slingshot 
+                a(class="button", href ="views/toasterOven.pug") Go  
+
+    div(class="container")
+        h1(id="myH1")= 'Microwave Merch'
+    each microwave in fileData.microwave
+        div(class="stuff")= microwave.name + " " + microwave.price + ' -- ' + microwave.description 
+            img(src="/" + microwave.img)

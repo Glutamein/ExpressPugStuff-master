@@ -1,0 +1,29 @@
+html
+    head
+        title= title
+        link(rel="stylesheet",  href="/css/styles.css")
+        script(src="/js/scripts.js")
+    body
+        div(class=["container"])
+            h1(id="myH1")= title
+        div(class="contact")
+            p Contact one of our wonderful technitions for help
+            ul
+                each contact in contactData
+                    li(class="roundCorner")= contact.name + ' : ' + contact.phone + ' - '+ contact.email
+
+        form(action="sendOrder")
+            div(class=["input"])
+                lable(for="name") Name: 
+                input#id(type="text", placeholder="Full Name", name="name")
+            div(class=["input"])
+                lable(for="email") Email: 
+                input#id(type="text", name="email", placeholder="e@mail.com") 
+            div(class=["input"])
+                lable(for='address') Address:
+                input#id(type='text', name='address', placeholder='123 S. Address St.')
+            div(class=["input"])
+                a(type="button", href='sendOrder.pug') Submit
+       
+      
+        
